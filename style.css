@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: orange; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: black;
+    height: 50vh; /* Adjusted to be responsive */
+    width: 80%; /* Adjusted to be responsive */
+    max-width: 500px; /* Added maximum width to maintain readability */
+    padding: 20px; /* Added padding for better spacing */
+    display: flex; /* Added */
+    flex-direction: column; /* Added */
+    justify-content: space-between; /* Added */
+    align-items: center; 
+}
+
+h1 {
+    color: white; 
+}
+
+button {
+    width: 100px; /* Adjust button width as needed */
+    cursor: pointer;
+    background-color: red; 
+    color: white; 
+}
+
+.emoji {
+    font-size: 3em; /* Increase the size of the emoji */
+}
+
+.joke-container p {
+    color: white; 
+}
+
+.joke-container {
+    background-color: red; 
+}
